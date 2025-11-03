@@ -250,7 +250,7 @@ function sendWhatsApp(){
   let price = selectedPayment==='فودافون'?selectedOffer.priceEGP:selectedOffer.priceSDG;
   let message = `اللعبة: ${selectedGame}%0Aالعرض: ${amount} ${currency} — ${price} ${selectedPayment==='فودافون'?'ج.م':'ج.س'}%0Aطريقة الدفع: ${selectedPayment}%0Aالايدي: ${customerID}`;
   
-  let phone = '+249916103363';
+  let phone = '+249994488276';
   let whatsappURL = `https://wa.me/${phone}?text=${message}`;
   window.open(whatsappURL,'_blank');
 }
